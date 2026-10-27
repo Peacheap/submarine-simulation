@@ -1,0 +1,62 @@
+{
+  "version": 2,
+  "note": "整舰单模型验证：所有设备故障/点击都映射到 Sub_Hull_051C",
+  "sceneRoot": "Sub_Hull_051C",
+  "hull": "Sub_Hull_051C",
+  "cameras": {},
+  "waypoints": [],
+  "phases": {
+    "552": { "name": "航渡", "banner": null },
+    "553": { "name": "作战", "banner": null },
+    "554": { "name": "撤收", "banner": null }
+  },
+  "equipments": [
+    {
+      "equipmentId": "229",
+      "equipmentName": "潜伏系统-",
+      "target": "Sub_Hull_051C",
+      "aliases": ["潜伏系统", "潜伏系统-"]
+    },
+    {
+      "equipmentId": "149",
+      "equipmentName": "操舵系统-",
+      "target": "Sub_Hull_051C",
+      "aliases": ["操舵系统", "操舵系统-"]
+    },
+    {
+      "equipmentId": "150",
+      "equipmentName": "均衡系统-",
+      "target": "Sub_Hull_051C",
+      "aliases": ["均衡系统", "均衡系统-"]
+    },
+    {
+      "equipmentId": "151",
+      "equipmentName": "反应堆-",
+      "target": "Sub_Hull_051C",
+      "aliases": ["反应堆", "反应堆-"]
+    },
+    {
+      "equipmentId": "152",
+      "equipmentName": "反应堆冷却系统-",
+      "target": "Sub_Hull_051C",
+      "aliases": ["反应堆冷却系统", "反应堆冷却系统-"]
+    },
+    {
+      "equipmentId": "153",
+      "equipmentName": "辅助系统-",
+      "target": "Sub_Hull_051C",
+      "aliases": ["辅助系统", "辅助系统-"]
+    },
+    {
+      "equipmentId": "228",
+      "equipmentName": "推进电机-",
+      "target": "Sub_Hull_051C",
+      "aliases": ["推进电机", "推进电机-"]
+    }
+  ],
+  "underwaterMock": {
+    "httpBase": "http://127.0.0.1:9090",
+    "wsMock": "ws://127.0.0.1:9090/ws/mock",
+    "wsResults": "ws://127.0.0.1:9090/mw/ws/results"
+  }
+}

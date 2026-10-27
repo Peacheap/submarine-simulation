@@ -1,0 +1,24 @@
+# Dependencies & build
+**/node_modules/
+**/dist/
+**/dist-ssr/
+**/.eslintcache
+**/*.tsbuildinfo
+
+# Logs & local
+**/logs/
+**/*.log
+**/*.local
+
+# Editors / OS
+**/.idea/
+**/.vscode/
+**/.DS_Store
+**/Thumbs.db
+
+# Vite / test artifacts
+**/*.timestamp-*-*.mjs
+**/coverage/
+**/cypress/videos/
+**/cypress/screenshots/
+**/__screenshots__/

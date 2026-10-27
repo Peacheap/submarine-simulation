@@ -1,0 +1,70 @@
+{
+  "version": 3,
+  "note": "多舰验证：设备点击/故障都作用到当前选中的舰体（activeHull）",
+  "defaultHullId": "SceneMeshObject_0",
+  "hulls": [
+    {
+      "id": "SceneMeshObject_0",
+      "label": "舰 #1 · 051C",
+      "aliases": ["SceneMeshObject_0", "Sub_Hull_051C", "sub_hull_051c"]
+    },
+    {
+      "id": "SceneMeshObject_1",
+      "label": "舰 #2 · SceneMeshObject_1",
+      "aliases": ["SceneMeshObject_1"]
+    }
+  ],
+  "sceneRoot": "SceneMeshObject_0",
+  "hull": "SceneMeshObject_0",
+  "cameras": {},
+  "waypoints": [],
+  "phases": {
+    "552": { "name": "航渡", "banner": null },
+    "553": { "name": "作战", "banner": null },
+    "554": { "name": "撤收", "banner": null }
+  },
+  "equipments": [
+    {
+      "equipmentId": "229",
+      "equipmentName": "潜伏系统-",
+      "target": "@activeHull",
+      "aliases": ["潜伏系统", "潜伏系统-"]
+    },
+    {
+      "equipmentId": "149",
+      "equipmentName": "操舵系统-",
+      "target": "@activeHull",
+      "aliases": ["操舵系统", "操舵系统-"]
+    },
+    {
+      "equipmentId": "150",
+      "equipmentName": "均衡系统-",
+      "target": "@activeHull",
+      "aliases": ["均衡系统", "均衡系统-"]
+    },
+    {
+      "equipmentId": "151",
+      "equipmentName": "反应堆-",
+      "target": "@activeHull",
+      "aliases": ["反应堆", "反应堆-"]
+    },
+    {
+      "equipmentId": "152",
+      "equipmentName": "反应堆冷却系统-",
+      "target": "@activeHull",
+      "aliases": ["反应堆冷却系统", "反应堆冷却系统-"]
+    },
+    {
+      "equipmentId": "153",
+      "equipmentName": "辅助系统-",
+      "target": "@activeHull",
+      "aliases": ["辅助系统", "辅助系统-"]
+    },
+    {
+      "equipmentId": "228",
+      "equipmentName": "推进电机-",
+      "target": "@activeHull",
+      "aliases": ["推进电机", "推进电机-"]
+    }
+  ]
+}
