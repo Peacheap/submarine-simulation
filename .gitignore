@@ -22,3 +22,8 @@
 **/cypress/videos/
 **/cypress/screenshots/
 **/__screenshots__/
+
+# auto-added for GitHub mirror
+target/
+*.class
+*.iml
